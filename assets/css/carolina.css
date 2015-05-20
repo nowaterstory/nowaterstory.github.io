@@ -41,5 +41,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #tech-specs p{
-	margin-bottom: 0em;
+  margin-bottom: 0em;
+}
+
+
+#about-me{
+
+}
+
+#about-me h2{
+  margin-bottom: 1.0em;
+  text-align: center;
+}
+
+
+
+.imgwrap{
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.imgwrap img{
+  width: 100%;
 }
