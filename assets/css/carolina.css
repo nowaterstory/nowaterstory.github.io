@@ -18,10 +18,23 @@ body{
 	font-family: "PT Sans Narrow", 'Helvetica Neue', 'Arial', sans-serif;
 }
 
+p{
+  font-size: 22px;
+  margin-bottom: 1.0em;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", 'Helvetica Neue', sans-serif;
-
 	text-transform: none;
 }
 
+#tech-specs{
+  margin: 3.0em 0;
+  padding: 2.0em 0;
+}
+
+#tech-specs h2{
+  margin-bottom: 1.0em;
+  text-align: center;
+}
