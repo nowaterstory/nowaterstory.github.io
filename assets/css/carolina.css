@@ -29,29 +29,20 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: none;
 }
 
-#tech-specs{
-  background: black;
-  margin: 3.0em 0;
-  padding: 2.0em 0;
-}
 
-#tech-specs h2{
-  margin-bottom: 0.5em;
-  text-align: left;
+#the-pitch{
+  padding: 1.0em 0;
 }
-
-#tech-specs p{
-  margin-bottom: 0em;
-}
-
 
 #about-me{
-
 }
 
 #about-me h2{
   margin-bottom: 1.0em;
   text-align: center;
+  background: black;
+  color: white;
+  padding: 1.0em 0;
 }
 
 
@@ -83,7 +74,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #my-works{
   border: thin dotted #aaa;
-  padding: 2.0em 0em;
+  padding: 1.0em 0em;
+}
+
+#my-works h3{
+  text-align: center;
 }
 
 .log-line{
@@ -98,4 +93,43 @@ footer.footer{
   margin-top: 2.0em;
   padding: 3.0em 0;
   background: gray;
+}
+
+
+#trailer{
+  background: white;
+  padding: 1.0em 0 1.0em;
+}
+
+#trailer p{
+  margin-bottom: 0em;
+
+}
+
+
+
+
+
+@media(min-width:768px) {
+    .navbar-fixed-top {
+        padding: 5px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 1em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 1px 0;
+    }
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.2em;
+    }
 }
