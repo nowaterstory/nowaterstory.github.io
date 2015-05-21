@@ -66,3 +66,36 @@ h1, h2, h3, h4, h5, h6 {
 .imgwrap img{
   width: 100%;
 }
+
+
+.story-list{
+  font-family: "PT Sans Narrow", 'Helvetica Neue', sans-serif;
+  font-size: 22px;
+}
+
+.story-list li{
+  margin-bottom: 1.0em;
+}
+.story-list li a{
+  font-weight: bold;
+}
+
+
+#my-works{
+  border: thin dotted #aaa;
+  padding: 2.0em 0em;
+}
+
+.log-line{
+  font-size: 30px;
+  font-style: italic;
+
+}
+
+
+
+footer.footer{
+  margin-top: 2.0em;
+  padding: 3.0em 0;
+  background: gray;
+}
