@@ -29,6 +29,13 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: none;
 }
 
+.metadata p{
+   margin-bottom: 0px;
+}
+
+.metadata{
+  margin-bottom: 1.0em;
+}
 
 #the-pitch{
   padding: 1.0em 0;
